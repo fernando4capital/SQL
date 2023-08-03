@@ -1,13 +1,11 @@
 /*  Fernando Da Silva, Oct.06, 2022
-    Localizar Objetos e seus respectivos
-    nomes e tipos em um Banco de Dados
+    Find objects with respective names and types in a Database
     MS-SQL Server
 
-Exemplo:
- exec sp_FindField 'User'
-
+    Sample:
+    exec sp_FindField 'User'
 */
-alter procedure sp_FindField 
+create procedure sp_FindField 
 @Name varchar(max)  
  
 as 
